@@ -1,0 +1,21 @@
+.reveal {
+	.sponsor-wrapper {
+		& + .sponsor-wrapper {
+			margin-top: 4rem;
+		}
+
+		&:first-child .sponsor {
+			width: 200px;
+		}
+	}
+
+	.sponsor {
+		display: inline-block;
+		max-width: 100%;
+		width: 150px;
+	}
+
+	.poster {
+		max-width: 90%;
+	}
+}

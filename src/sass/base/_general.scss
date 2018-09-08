@@ -1,0 +1,50 @@
+body {
+	background-color: #0A0F2B;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+
+.logo,
+.hashtag,
+.header {
+	position: absolute;
+}
+
+.logo {
+	left: 1rem;
+	top: 1rem;
+	width: 10rem;
+	height: 5rem;
+}
+
+.hashtag {
+	bottom: 1.5rem;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin: 0;
+	color: #8bc7fc;
+}
+
+.header {
+	right: 0;
+	top: 0;
+	width: 25rem;
+	height: 7.7rem;
+}
+
+.reveal .controls,
+.reveal .progress {
+	color: #8bc7fc;
+}
