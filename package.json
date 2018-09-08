@@ -1,8 +1,8 @@
 {
-	"name": "design-system-meetup",
+	"name": "design-system-meetup-intro-slides",
 	"version": "0.1.0",
-	"description": "Design Systems Meetup",
-	"homepage": "http://dominikwilkowski.github.io/talks/design-systems",
+	"description": "Design Systems Meetup - Intro slides",
+	"homepage": "https://designsystemmeetup.github.io/intro-slides/",
 	"author": {
 		"name": "Dominik Wilkowski",
 		"email": "hi@dominik-wilkowski.com",
@@ -25,7 +25,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/dominikwilkowski/talks.git"
+		"url": "git://github.com/DesignSystemMeetup/intro-slides.git"
 	},
 	"dependencies": {
 		"autoprefixer": "^8.0.0",
@@ -42,7 +42,7 @@
 	"licenses": [
 		{
 			"type": "GPL-3.0",
-			"url": "https://github.com/dominikwilkowski/talks/blob/master/LICENSE"
+			"url": "https://github.com/DesignSystemMeetup/intro-slides/blob/master/LICENSE"
 		}
 	],
 	"license": "GPL-3.0"
