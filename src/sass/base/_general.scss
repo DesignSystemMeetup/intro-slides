@@ -22,35 +22,45 @@ body {
 .logo {
 	left: 1rem;
 	top: 1rem;
-	width: 10rem;
-	height: 5rem;
+	width: 12vw;
+	height: 7vw;
 }
 
 .hashtag {
-	bottom: 1.5rem;
+	bottom: 5vw;
 	left: 0;
 	right: 0;
 	text-align: center;
 	font-weight: bold;
-	font-size: 4rem;
+	font-size: 3.5vw;
 	margin: 0;
+}
+
+.hashtag a,
+.hashtag span {
+	position: absolute;
 	color: #8bc7fc;
 }
 
 .hashtag a {
-	display: inline-block;
-	color: #8bc7fc;
-	margin-right: 2rem;
+	left: 1em;
+}
+
+.hashtag span {
+	right: 1em;
 }
 
 .header {
 	right: 0;
 	top: 0;
-	width: 25rem;
-	height: 7.7rem;
+	width: 25vw;
+	height: 7.7vw;
 }
 
-.reveal .controls,
+.reveal .controls button {
+	display: none;
+}
+
 .reveal .progress {
 	color: #8bc7fc;
 }
