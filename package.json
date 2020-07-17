@@ -14,7 +14,7 @@
 		"build:autoprefix": "postcss assets/css/style.css -u autoprefixer -r --no-map",
 		"build:css": "npm run build:sass && npm run build:autoprefix",
 		"build:concat": "concat-cli -f src/js/*.js -o assets/js/script.min.js",
-		"build:uglify": "uglifyjs assets/js/script.min.js --compres --output assets/js/script.min.js",
+		"build:uglify": "uglifyjs assets/js/script.min.js --compress --output assets/js/script.min.js",
 		"build:js": "npm run build:concat && npm run build:uglify",
 		"build": "npm run build:css && npm run build:js && npm run intro",
 		"server": "browser-sync start --server './' --files './index.html' 'assets/'",
